@@ -3,6 +3,8 @@ using System.Linq;
 
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
+using R5T.Magyar;
+
 using R5T.T0125.T001;
 using R5T.T0098;
 
@@ -40,7 +42,7 @@ namespace System
 
                     return usingDirectives;
                 })
-                .Now()
+                .Now_OLD()
                 ;
 
             return output;

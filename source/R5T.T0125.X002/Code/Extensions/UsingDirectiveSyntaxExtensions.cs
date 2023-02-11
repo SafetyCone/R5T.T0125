@@ -4,6 +4,8 @@ using System.Linq;
 
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
+using R5T.Magyar;
+
 using R5T.T0125.T001;
 
 using Instances = R5T.T0125.X002.Instances;

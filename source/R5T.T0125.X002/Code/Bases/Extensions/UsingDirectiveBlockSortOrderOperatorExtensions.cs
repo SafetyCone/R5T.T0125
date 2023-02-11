@@ -46,7 +46,7 @@ namespace System
 
             var output = usingDirectiveBlocks
                 .OrderBy(x => indexByBlockLabel[x.Label])
-                .Now();
+                .Now_OLD();
 
             return output;
         }
